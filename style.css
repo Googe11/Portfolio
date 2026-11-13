@@ -50,3 +50,23 @@ footer {
     padding: 20px;
     color: #667;
 }
+
+/* Navigation bar */
+nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #64b5f6;
+}
