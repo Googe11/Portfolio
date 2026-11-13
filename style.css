@@ -1,0 +1,52 @@
+
+/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #263238;
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #172b4d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 2.5rem;
+}
+
+/* Main content */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2 {
+    color: #1769aa;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #667;
+}
